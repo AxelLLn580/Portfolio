@@ -1,0 +1,493 @@
+{
+    "checkedAtUtc":  "2026-10-22T18:18:09.9092034Z",
+    "baseUrl":  "https://axellln580.github.io/Portfolio/",
+    "method":  "Live HTTPS GET and deployed HTML inspection; no browser execution",
+    "navigation":  [
+                       {
+                           "source":  "index.html",
+                           "label":  "Home",
+                           "target":  "index.html",
+                           "status":  200,
+                           "title":  "Home | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "index.html",
+                           "label":  "About Me",
+                           "target":  "about.html",
+                           "status":  200,
+                           "title":  "About Me | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "index.html",
+                           "label":  "Projects",
+                           "target":  "projects.html",
+                           "status":  200,
+                           "title":  "Projects | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "index.html",
+                           "label":  "Skills",
+                           "target":  "skills.html",
+                           "status":  200,
+                           "title":  "Skills | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "index.html",
+                           "label":  "Contact",
+                           "target":  "contact.html",
+                           "status":  200,
+                           "title":  "Contact | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "about.html",
+                           "label":  "Home",
+                           "target":  "index.html",
+                           "status":  200,
+                           "title":  "Home | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "about.html",
+                           "label":  "About Me",
+                           "target":  "about.html",
+                           "status":  200,
+                           "title":  "About Me | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "about.html",
+                           "label":  "Projects",
+                           "target":  "projects.html",
+                           "status":  200,
+                           "title":  "Projects | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "about.html",
+                           "label":  "Skills",
+                           "target":  "skills.html",
+                           "status":  200,
+                           "title":  "Skills | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "about.html",
+                           "label":  "Contact",
+                           "target":  "contact.html",
+                           "status":  200,
+                           "title":  "Contact | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "projects.html",
+                           "label":  "Home",
+                           "target":  "index.html",
+                           "status":  200,
+                           "title":  "Home | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "projects.html",
+                           "label":  "About Me",
+                           "target":  "about.html",
+                           "status":  200,
+                           "title":  "About Me | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "projects.html",
+                           "label":  "Projects",
+                           "target":  "projects.html",
+                           "status":  200,
+                           "title":  "Projects | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "projects.html",
+                           "label":  "Skills",
+                           "target":  "skills.html",
+                           "status":  200,
+                           "title":  "Skills | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "projects.html",
+                           "label":  "Contact",
+                           "target":  "contact.html",
+                           "status":  200,
+                           "title":  "Contact | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "skills.html",
+                           "label":  "Home",
+                           "target":  "index.html",
+                           "status":  200,
+                           "title":  "Home | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "skills.html",
+                           "label":  "About Me",
+                           "target":  "about.html",
+                           "status":  200,
+                           "title":  "About Me | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "skills.html",
+                           "label":  "Projects",
+                           "target":  "projects.html",
+                           "status":  200,
+                           "title":  "Projects | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "skills.html",
+                           "label":  "Skills",
+                           "target":  "skills.html",
+                           "status":  200,
+                           "title":  "Skills | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "skills.html",
+                           "label":  "Contact",
+                           "target":  "contact.html",
+                           "status":  200,
+                           "title":  "Contact | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "contact.html",
+                           "label":  "Home",
+                           "target":  "index.html",
+                           "status":  200,
+                           "title":  "Home | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "contact.html",
+                           "label":  "About Me",
+                           "target":  "about.html",
+                           "status":  200,
+                           "title":  "About Me | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "contact.html",
+                           "label":  "Projects",
+                           "target":  "projects.html",
+                           "status":  200,
+                           "title":  "Projects | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "contact.html",
+                           "label":  "Skills",
+                           "target":  "skills.html",
+                           "status":  200,
+                           "title":  "Skills | Axel Luna",
+                           "result":  "Pass"
+                       },
+                       {
+                           "source":  "contact.html",
+                           "label":  "Contact",
+                           "target":  "contact.html",
+                           "status":  200,
+                           "title":  "Contact | Axel Luna",
+                           "result":  "Pass"
+                       }
+                   ],
+    "internalLinks":  [
+                          {
+                              "source":  "index.html",
+                              "target":  "#main",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "skills.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "skills.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "index.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "#main",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "skills.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "about.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "#main",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "skills.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "projects.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "#main",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "skills.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "skills.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "#main",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "about.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "skills.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "projects.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "index.html",
+                              "result":  "Pass"
+                          },
+                          {
+                              "source":  "contact.html",
+                              "target":  "contact.html",
+                              "result":  "Pass"
+                          }
+                      ],
+    "assets":  [
+                   {
+                       "target":  "styles.css",
+                       "status":  200
+                   },
+                   {
+                       "target":  "site.js",
+                       "status":  200
+                   },
+                   {
+                       "target":  "contact.js",
+                       "status":  200
+                   },
+                   {
+                       "target":  "assets/project-01.svg",
+                       "status":  200
+                   },
+                   {
+                       "target":  "assets/project-02.svg",
+                       "status":  200
+                   },
+                   {
+                       "target":  "assets/project-03.svg",
+                       "status":  200
+                   }
+               ],
+    "liveHasLatestKeyboardShortcuts":  false,
+    "browser":  "Unavailable: no browsers in computer-use inventory",
+    "lighthouse":  "PageSpeed Insights API returned HTTP 429; no score obtained"
+}

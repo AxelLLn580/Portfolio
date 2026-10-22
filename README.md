@@ -48,6 +48,14 @@ it cannot prevent sophisticated scrapers or unwanted messages.
 - The Light mode toggle switches all pages between the default dark palette and a light palette with darker amber for readable contrast. The choice is saved in browser storage when available.
 - Both controls are shared through `site.js`; the contact page also retains its email reveal button.
 
+## Keyboard navigation
+
+- Use Tab / Shift+Tab to move between links and buttons. Focus is visibly outlined.
+- Press Enter to follow links; Enter or Space activates buttons.
+- The first Tab reveals Skip to content. Press Enter to move focus to the main content.
+- In the mobile menu, Enter or Space opens the menu; Down / Up opens it and focuses the first / last link. Escape closes it and returns focus to Menu.
+- Within navigation, arrow keys move between links; Home / End selects the first / last link. Tab can always move out of navigation.
+
 ## Validation
 Check each page on desktop and mobile, keyboard navigation, and links after edits.
 Run `git diff --check` to check tracked changes for whitespace errors.

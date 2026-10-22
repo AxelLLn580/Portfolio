@@ -35,6 +35,51 @@ mobile.addEventListener('change', () => {
 });
 setMenu(false);
 
+
+// Keep native Tab navigation and add optional shortcuts within the navigation.
+menuButton.addEventListener('keydown', (event) => {
+  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  if (mobile.matches && (event.key === 'ArrowDown' || event.key === 'ArrowUp')) {
+    event.preventDefault();
+    setMenu(true);
+    const links = navigation.querySelectorAll('a[href]');
+    links[event.key === 'ArrowUp' ? links.length - 1 : 0].focus();
+  }
+});
+navigation.addEventListener('keydown', (event) => {
+  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  const links = Array.from(navigation.querySelectorAll('a[href]'));
+  const index = links.indexOf(document.activeElement);
+  if (index < 0) return;
+  let next;
+  switch (event.key) {
+    case 'ArrowRight':
+    case 'ArrowDown':
+      next = (index + 1) % links.length;
+      break;
+    case 'ArrowLeft':
+    case 'ArrowUp':
+      next = (index - 1 + links.length) % links.length;
+      break;
+    case 'Home':
+      next = 0;
+      break;
+    case 'End':
+      next = links.length - 1;
+      break;
+    default:
+      return;
+  }
+  event.preventDefault();
+  links[next].focus();
+});
+
+const main = document.getElementById('main');
+document.querySelector('.skip-link').addEventListener('click', () => {
+  setMenu(false);
+  main.focus();
+});
+
 function setTheme(theme) {
   root.dataset.theme = theme;
   themeButton.textContent = theme === 'light' ? 'Dark mode' : 'Light mode';

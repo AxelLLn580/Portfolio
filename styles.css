@@ -44,3 +44,10 @@ button:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .menu-toggle{display:none}
 @media(min-width:601px) and (max-width:1000px){.site-header{flex-wrap:wrap}.site-header nav{flex-basis:100%;justify-content:center}}
 @media(max-width:600px){.site-header{flex-direction:row;flex-wrap:wrap;align-items:center;gap:16px}.header-controls{gap:8px}.menu-toggle{display:inline-flex;align-items:center;gap:8px}.site-header nav{flex-basis:100%;flex-direction:column;gap:4px;border-top:1px solid var(--line);padding-top:12px}.site-header nav a{font-size:14px;padding:10px 12px}.site-header nav a[aria-current="page"]{box-shadow:inset 3px 0 var(--accent);background:var(--surface)}}
+
+/* Match pointer feedback when browsing with the keyboard. */
+main:focus{outline:2px solid var(--accent);outline-offset:10px}
+nav a:focus-visible{color:var(--text);background:var(--surface)}
+.link-grid a:focus-visible{border-color:var(--accent)}
+.link-grid a:focus-visible h3{color:var(--accent);text-decoration:underline}
+a,button,main{scroll-margin-block:24px}
