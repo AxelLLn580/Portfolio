@@ -42,6 +42,12 @@ The contact email is revealed on button activation by `contact.js`, with a reada
 obfuscated fallback when JavaScript is disabled. This deters basic email harvesting;
 it cannot prevent sophisticated scrapers or unwanted messages.
 
+## Interactive elements
+
+- On screens up to 600px wide, the Menu button expands and collapses the navigation. Escape closes it and returns focus to the button. Without JavaScript, navigation stays visible.
+- The Light mode toggle switches all pages between the default dark palette and a light palette with darker amber for readable contrast. The choice is saved in browser storage when available.
+- Both controls are shared through `site.js`; the contact page also retains its email reveal button.
+
 ## Validation
 Check each page on desktop and mobile, keyboard navigation, and links after edits.
 Run `git diff --check` to check tracked changes for whitespace errors.
