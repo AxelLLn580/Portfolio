@@ -1,4 +1,4 @@
-﻿# Axel Luna — Personal Portfolio
+# Axel Luna - Personal Portfolio
 
 A static, five-page portfolio for GitHub Pages. No installation or build step is required.
 
@@ -18,6 +18,15 @@ confirm the working directory ends in `Portfolio/Portfolio` before editing.
 
 Open `index.html` in a browser to preview. All pages share `styles.css`.
 Project illustrations are in `assets/`.
+
+## Design
+
+- Colors: `--bg: #1C2430`, `--accent: #F59E0B`, `--text: #F8FAFC`.
+- Fonts: Inter for headings and body text, loaded through Google Fonts with a system sans-serif fallback.
+- Feel: clean, with lots of space, clear hierarchy, and restrained borders.
+- Use dark surfaces, amber actions, and generous spacing across all five pages.
+- Keep layouts responsive, keyboard focus visible, and text readable.
+- Preserve accurate personal details, accessible markup, and relative asset paths as required by `AGENTS.md`.
 
 ## Personalize before sharing
 The name Axel Luna and interest in chess come from the original website.
