@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
   <link rel="stylesheet" href="styles.css">
   <script src="site.js" defer></script>
+  <script src="jokes.js" defer></script>
+  <script src="rock-paper-scissors.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -19,11 +21,30 @@
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" hidden><span aria-hidden="true">&#9776;</span> Menu</button>
   </div>
   <nav id="main-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About Me</a><a href="projects.html" aria-current="page">Projects</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a></nav></header>
-  <main id="main" tabindex="-1"><section class="page-heading"><p class="eyebrow">02 / Projects</p><h1>Room for ideas.<br><span>Space to build.</span></h1><p class="intro">A home for projects, experiments, and class work.</p><p class="notice">The three entries below are placeholders. Actual project descriptions, screenshots, and links have not been added yet.</p></section>
+  <main id="main" tabindex="-1"><section class="page-heading"><p class="eyebrow">02 / Projects</p><h1>Room for ideas.<br><span>Space to build.</span></h1><p class="intro">Here you will find small projects I have worked on before. This page is essentially a small demonstration of my skills.</p></section>
 <div class="project-grid">
-<article class="project"><img src="assets/project-01.svg" alt="Illustrative browser layout placeholder for project one" width="720" height="480"><div class="project-body"><p class="eyebrow">01 / Project placeholder</p><h2>Project one</h2><p>Add the project name, the problem it solves, your contribution, and the tools you used.</p><span class="pending">Screenshot and project link coming soon</span></div></article>
-<article class="project"><img src="assets/project-02.svg" alt="Illustrative chart placeholder for project two" width="720" height="480"><div class="project-body"><p class="eyebrow">02 / Project placeholder</p><h2>Project two</h2><p>Describe a class assignment or personal project, including what you built and what you learned.</p><span class="pending">Screenshot and project link coming soon</span></div></article>
-<article class="project"><img src="assets/project-03.svg" alt="Illustrative interface placeholder for project three" width="720" height="480"><div class="project-body"><p class="eyebrow">03 / Project placeholder</p><h2>Project three</h2><p>Explain the goal, your approach, and the result. Include a repository or live demo when available.</p><span class="pending">Screenshot and project link coming soon</span></div></article>
+<article class="project"><img class="project-screenshot" src="assets/inventory-management.svg" alt="Inventory dashboard illustration showing five products, stock levels, restock alerts, an $84.50 total value, and a mango price update" width="720" height="480"><div class="project-body"><p class="eyebrow">01 / Python</p><h2>Inventory Management</h2><p>I built a simple program to manage a small store's inventory.</p><a class="pending" href="https://colab.research.google.com/drive/1CIaZrV6R_lhUx3LOcOrJjCQQI70Bpaqs?usp=sharing" target="_blank" rel="noopener noreferrer">View project on Google Colab ↗</a></div></article>
+<article class="project"><div class="joke-demo" aria-label="Try the joke generator">
+  <p class="eyebrow">Try it out</p>
+  <button class="button joke-fetch" id="joke-fetch" type="button" hidden>Fetch a joke</button>
+  <p id="joke-status" role="status" aria-live="polite"></p>
+  <button class="joke-reveal" id="joke-reveal" type="button" aria-expanded="false" aria-controls="joke-punchline" hidden><span id="joke-setup"></span><span class="joke-hint">Click to reveal the punchline <span id="joke-arrow" aria-hidden="true">→</span></span></button>
+  <p class="joke-punchline" id="joke-punchline" hidden></p>
+  <noscript><p>Enable JavaScript to try the joke generator, or open the notebook below.</p></noscript>
+</div><div class="project-body"><p class="eyebrow">02 / API Knowledge</p><h2>API Joke Fetcher</h2><p>I built a program that fetches random jokes from an API and displays the setup and punchline. Try the interactive demo above to reveal a punchline yourself.</p><a class="pending" href="https://colab.research.google.com/drive/1GAsd1TbwgLzfjMwHUhFy9wznkmBTqPfW?usp=sharing" target="_blank" rel="noopener noreferrer">View project on Google Colab ↗</a></div></article>
+<article class="project"><div class="rps-demo" aria-label="Two-player rock-paper-scissors demo">
+  <p class="eyebrow">Try it out / 2 players</p>
+  <p id="rps-status" role="status" aria-live="polite">Player 1: choose rock, paper, or scissors.</p>
+  <div class="rps-choices" id="rps-choices" role="group" aria-label="Player 1 choice" hidden>
+    <button type="button" data-choice="rock">✊ <span>Rock</span></button>
+    <button type="button" data-choice="paper">✋ <span>Paper</span></button>
+    <button type="button" data-choice="scissors">✌ <span>Scissors</span></button>
+  </div>
+  <p class="rps-instructions">Choose privately, then pass the screen to the other player.</p>
+  <button class="button rps-action" id="rps-next" type="button" hidden>Player 2: ready</button>
+  <button class="button rps-action" id="rps-reset" type="button" hidden>Play again</button>
+  <noscript><p>Enable JavaScript to play, or open the notebook below.</p></noscript>
+</div><div class="project-body"><p class="eyebrow">03 / Python Logic</p><h2>Rock-Paper-Scissors</h2><p>I built a two-player rock-paper-scissors game that compares each player's choice to determine the winner or declare a tie. Try it with a friend using the demo above.</p><a class="pending" href="https://colab.research.google.com/drive/1EvPmeiAX_GlvWOcEf_-m8HYJGL55IPIa?usp=sharing" target="_blank" rel="noopener noreferrer">View project on Google Colab ↗</a></div></article>
 </div></main>
   <footer><a class="footer-name" href="index.html">Axel Luna<span> / Personal portfolio</span></a><a href="contact.html">Let's connect ↗</a></footer>
 </body>

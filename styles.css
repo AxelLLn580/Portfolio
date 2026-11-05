@@ -51,3 +51,20 @@ nav a:focus-visible{color:var(--text);background:var(--surface)}
 .link-grid a:focus-visible{border-color:var(--accent)}
 .link-grid a:focus-visible h3{color:var(--accent);text-decoration:underline}
 a,button,main{scroll-margin-block:24px}
+.project img.project-screenshot{object-fit:contain}
+.rps-demo{padding:25px;min-height:240px;background:var(--board);display:flex;flex-direction:column;justify-content:center;gap:16px}
+.rps-demo p{margin:0}
+.rps-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.rps-choices button{padding:12px 4px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--text);font:inherit;font-size:24px;cursor:pointer}
+.rps-choices button span{display:block;font-size:12px;margin-top:6px}
+.rps-choices button:hover{border-color:var(--accent);background:var(--bg)}
+.rps-demo .rps-instructions{font-size:12px;color:var(--muted)}
+.rps-action{font:inherit;border:0;cursor:pointer;align-self:flex-start}
+.joke-demo{padding:25px;min-height:240px;background:var(--board);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:16px}
+.joke-demo p{margin:0}
+.joke-fetch{font:inherit;border:0;cursor:pointer}
+.joke-fetch:disabled{opacity:.65;cursor:wait}
+.joke-reveal{width:100%;padding:16px;text-align:left;font:inherit;font-weight:600;line-height:1.5;color:var(--text);background:var(--surface);border:1px solid var(--accent);border-radius:8px;cursor:pointer;overflow-wrap:anywhere}
+.joke-reveal:hover{background:var(--bg)}
+.joke-hint{display:block;margin-top:12px;font-size:12px;font-weight:400;color:var(--accent)}
+.joke-demo .joke-punchline{padding-left:14px;border-left:3px solid var(--accent);font-size:16px;line-height:1.6;overflow-wrap:anywhere}
