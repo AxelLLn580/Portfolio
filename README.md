@@ -1,6 +1,10 @@
 # Axel Luna - Personal Portfolio
 
-A static, five-page portfolio for GitHub Pages. No installation or build step is required.
+Repository: [AxelLLn580/Portfolio](https://github.com/AxelLLn580/Portfolio)
+
+Live website: [Axel Luna's portfolio](https://axellln580.github.io/Portfolio/)
+
+A responsive, five-page personal portfolio introducing Axel Luna's background, education, interests, and growing technical skills. The Projects page presents an inventory management program and playable browser adaptations of a joke fetcher and a two-player rock-paper-scissors game. Built with plain HTML, CSS, and JavaScript for GitHub Pages; no installation or build step is required.
 
 ## Workspace
 
@@ -16,7 +20,20 @@ confirm the working directory ends in `Portfolio/Portfolio` before editing.
 - `skills.html`: technical skills and proficiency categories.
 - `contact.html`: public contact information.
 
-Open `index.html` in a browser to preview. All pages share `styles.css`.
+## View locally
+
+Download the repository ZIP and extract it, or clone it:
+
+```sh
+git clone https://github.com/AxelLLn580/Portfolio.git
+cd Portfolio
+```
+
+Open `index.html` in a current browser. Alternatively, open the folder in VS Code and use a local preview extension to serve `index.html`.
+
+Internet access is needed for the joke API, Google Fonts, and linked Google Colab notebooks. The two-player game runs locally without a server.
+
+All pages share `styles.css`.
 Project illustrations are in `assets/`.
 
 ## Design
@@ -28,15 +45,11 @@ Project illustrations are in `assets/`.
 - Keep layouts responsive, keyboard focus visible, and text readable.
 - Preserve accurate personal details, accessible markup, and relative asset paths as required by `AGENTS.md`.
 
-## Personalize before sharing
-The name Axel Luna and interest in chess come from the original website.
-The coding and robotics background was supplied by Axel. Actual projects, skills,
-proficiency levels, and professional profile links still need to be supplied. These areas are explicitly marked as
-placeholders rather than presented as factual claims.
+## Notes and acknowledgments
 
-Replace all three project entries with real work, update their image paths and
-alternative text, and add repository or demo links where available. Replace the
-professional profile placeholders with the links you want to share.
+Personal details and Python projects were supplied by Axel Luna. Codex assisted with implementation, wording, illustrations, and checks. The browser demos adapt the Python programs to JavaScript; the original notebooks remain available through the project links, with local copies for projects two and three.
+
+The joke fetcher uses the [Official Joke API](https://official-joke-api.appspot.com/random_joke). Fonts are provided by Google Fonts. The inventory dashboard is an illustration of the program's behavior.
 
 The contact email is revealed on button activation by `contact.js`, with a readable
 obfuscated fallback when JavaScript is disabled. This deters basic email harvesting;
@@ -47,6 +60,8 @@ it cannot prevent sophisticated scrapers or unwanted messages.
 - On screens up to 600px wide, the Menu button expands and collapses the navigation. Escape closes it and returns focus to the button. Without JavaScript, navigation stays visible.
 - The Light mode toggle switches all pages between the default dark palette and a light palette with darker amber for readable contrast. The choice is saved in browser storage when available.
 - Both controls are shared through `site.js`; the contact page also retains its email reveal button.
+- `jokes.js` fetches a joke and reveals its punchline when the joke text is selected. It includes loading and error states.
+- `rock-paper-scissors.js` supports private choices for two players, reveals the result, and resets for another round.
 
 ## Keyboard navigation
 
@@ -59,3 +74,5 @@ it cannot prevent sophisticated scrapers or unwanted messages.
 ## Validation
 Check each page on desktop and mobile, keyboard navigation, and links after edits.
 Run `git diff --check` to check tracked changes for whitespace errors.
+
+See [AGENTS.md](AGENTS.md) for repository guidance, [TESTING.md](TESTING.md) for the test plan and historical execution record, and [REPORT.md](REPORT.md) for the project report. Historical test results are dated and do not represent a fresh audit of every later change.
